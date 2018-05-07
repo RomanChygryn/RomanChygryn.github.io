@@ -1,0 +1,52 @@
+.about {
+  grid-template-columns: 1fr;
+  min-height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .about__title {
+    font-size: 3rem;
+    color: #191919;
+    margin-bottom: 4rem;
+  }
+  .about__content {
+    text-align: center;
+    width: 65%;
+    color: #787878;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+  .about__signature {
+    background: url(../img/signature.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 226px;
+    height: 63px;
+    margin-bottom: 2rem;
+  }
+}
+
+
+// medaqueries
+
+@media screen and (max-width: 870px) {
+  .about {
+    min-height: 322px;
+    .about__title {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    .about__content {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+      text-align: left;
+    }
+    .about__signature {
+      width: 168px;
+      height: 45px;
+    }
+  }
+}

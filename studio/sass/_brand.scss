@@ -1,0 +1,46 @@
+.brand {
+  display: grid;
+  height: 200px;
+  grid-template-columns: repeat(5, 1fr);
+
+
+  .brand__item {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+        &:nth-child(1) {
+        background: url('../img/ico/sprite.png') no-repeat 0 0;
+      	width: 89px;
+      	height: 65px;
+    }
+      &:nth-child(2) {
+        background: url('../img/ico/sprite.png') no-repeat -104px -7px;
+      	width: 98px;
+      	height: 58px;
+    }
+      &:nth-child(3) {
+        background: url('../img/ico/sprite.png') no-repeat -217px 0;
+      	width: 127px;
+      	height: 72px;
+    }
+      &:nth-child(4) {
+        background: url('../img/ico/sprite.png') no-repeat -359px 0;
+      	width: 96px;
+      	height: 72px;
+    }
+      &:nth-child(5) {
+        background: url('../img/ico/sprite.png') no-repeat -470px -7px;
+      	width: 89px;
+      	height: 65px;
+    }
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .brand {
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-gap: 2rem;
+    height: auto;
+    padding: 2rem 0;
+  }
+}
