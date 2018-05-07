@@ -1,0 +1,40 @@
+@mixin wh($w,$h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin mobile {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+@mixin mobilebig {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 1190px) {
+    @content;
+  }
+}
+@mixin hamburger {
+  @media (max-width: 880px) {
+    @content;
+  }
+}
+@mixin medium {
+  @media (max-width: 1530px) {
+    @content;
+  }
+}
+@mixin mediumsmaller {
+  @media (max-width: 1360px) {
+    @content;
+  }
+}
+@mixin smallheight {
+  @media (max-height: 800px) {
+    @content;
+  }
+}

@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  cursor: pointer;
+  @include wh(200px,45px);
+  background: #e84545;
+  border: none;
+  border-radius: .2rem;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background: #E52E2E;
+  }
+  a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+}

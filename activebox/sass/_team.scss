@@ -1,0 +1,104 @@
+// Icons
+.team {
+  font-family: 'Raleway', sans-serif;
+  .member--first {
+    .member__icon {
+      background: url('../img/worksprite.png') no-repeat 0 0;
+    	width: 270px;
+    	height: 270px;
+    }
+  }
+  .member--second {
+    .member__icon {
+      background: url('../img/worksprite.png') no-repeat -322px 0;
+    	width: 270px;
+    	height: 270px;
+    }
+  }
+  .member--third {
+    .member__icon {
+      background: url('../img/worksprite.png') no-repeat -644px 0;
+    	width: 270px;
+    	height: 270px;
+    }
+  }
+  .member--fourth {
+    .member__icon {
+      background: url('../img/worksprite.png') no-repeat -946px 0;
+      width: 270px;
+      height: 270px;
+    }
+  }
+}
+// Icons extend
+
+.team {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  box-sizing: border-box;
+  @include tablet {
+    grid-template: repeat(2, auto) / repeat(2, 1fr);
+    height: auto;
+  }
+  @include mobilebig {
+    grid-template-columns: 1fr;
+  }
+  .team__member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    .member__icon {
+      margin-bottom: 2.5rem;
+    }
+    .member__name {
+      color: #2d3033;
+      font-size: 2rem;
+      align-self: flex-start;
+      margin-bottom: .5rem;
+    }
+    .member__position {
+      color: #e84545;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      align-self: flex-start;
+      margin-bottom: 2.5rem;
+    }
+    .member__description {
+      color: #6c7279;
+      font-size: 1.4rem;
+    }
+    .member__social {
+      margin-top: 2rem;
+      align-self: flex-start;
+      @include tablet {
+        margin-bottom: 4rem;
+      }
+      .social__bar {
+        display: flex;
+        flex-direction: row;
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #e8ecee;
+          @include wh(40px,40px);
+          color: #e8ecee;
+          cursor: pointer;
+          margin-right: .3rem;
+          transition: all 1s;
+          &:hover {
+            color: black;
+            border-color: black;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, form, label, legend, table, caption, footer, header, menu, nav, video, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
