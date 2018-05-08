@@ -1,0 +1,14 @@
+.scroll-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 6;
+  background: none;
+  color: #e84545;
+  transition: color .5s;
+  &:hover {
+    color: #E52E2E;
+  }
+  display: none;
+}
