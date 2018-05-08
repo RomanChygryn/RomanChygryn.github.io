@@ -9,11 +9,10 @@
   background-size: cover;
   font-family: 'Raleway', sans-serif;
   height: 100vh;
+  min-height: 742px;
   display: flex;
   box-sizing: border-box;
-  @include smallheight {
-    height: 100%;
-  }
+
   &::after {
     content: '';
     @include wh(100%,100vh);
@@ -111,6 +110,7 @@
         right: 0;
         top: 0;
         height: 100vh;
+        min-height: 742px;
         z-index: 5;
 
         li {
@@ -153,13 +153,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    margin-top: 15vh;
     justify-content: center;
     z-index: 2;
-    @include mobile {
-      justify-content: flex-start;
-      margin-top: 1rem;
-    }
+    // @include mobile {
+    //   justify-content: flex-start;
+    //   margin-top: 1rem;
+    // }
     .hero__title {
       color: #ffffff;
       text-transform: uppercase;
