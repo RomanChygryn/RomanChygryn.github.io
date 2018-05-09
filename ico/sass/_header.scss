@@ -1,0 +1,125 @@
+header {
+  position: relative;
+  background-color: #3341ac;
+  height: 100vh;
+  color: #FFFFFF;
+  margin-top: -72px;
+
+  .container {
+    .header__timer {
+      margin-top: 10rem;
+      .timer__title {
+        .timer__title--uppercase {
+          text-transform: uppercase;
+        }
+        font-size: 1.8rem;
+        color: #39a7dc;
+      }
+
+      .timer__clock {
+        .clock {
+          list-style: none;
+          .clock__elem {
+            text-align: center;
+            display: inline-block;
+            @include wh(100px,65px);
+            padding-top: .5rem;
+            font-size: 2rem;
+            font-weight: 300;
+            border: .1rem solid #8088f7;
+            border-radius: .7rem;
+            margin-right: 2rem;
+
+            &::after {
+              content: ":";
+              position: relative;
+              left: 67px;
+              bottom: 50px;
+            }
+          }
+          .clock__elem:last-child {
+            &::after {
+              color: transparent;
+            }
+          }
+        }
+      }
+    }
+
+    .hero {
+      position: relative;
+      .hero__title {
+        font-weight: 400;
+        line-height: 3rem;
+        color: #feffff;
+        font-size: 2.5rem;
+      }
+      .hero__subtitle {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-top: 4.8rem;
+        color: #c0c9ff;
+      }
+      .hero__form {
+        margin-top: 2rem;
+        position: relative;
+        .form {
+          width: 95%;
+          border-radius: 1.2rem;
+          &::placeholder {
+            color: #596575;
+          }
+        }
+        .hero__form--button {
+          position: absolute;
+          background-color: #38a6db;
+          color: #ffffff;
+          font-weight: 300;
+          letter-spacing: .1rem;
+          border-radius: 1.2rem;
+          right: 0;
+        }
+      }
+    }
+    .header__video {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      position: relative;
+      .video__wrapper {
+        position: relative;
+        width: 80%;
+        height: 300px;
+        overflow: hidden;
+
+        .video__content {
+
+          height: 300px;
+        }
+      }
+    }
+    .header__social {
+      margin-top: 4rem;
+      .social__title {
+        text-transform: capitalize;
+        color: #3da5dc;
+        text-align: right;
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+      .social__content {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        list-style: none;
+        text-align: right;
+        .social__content--item {
+          display: inline-block;
+          padding-right: 1rem;
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
