@@ -1,0 +1,17 @@
+.scroll-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 6;
+  background: none;
+  color: #303031;
+  transition: color .5s;
+  &:hover {
+    color: #000000;
+  }
+  &:focus {
+    outline: none;
+  }
+  display: none;
+}

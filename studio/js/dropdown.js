@@ -10,3 +10,9 @@ function buttonChange() {
         x.className = "nav__navbar";
     }
 };
+$(function(){
+		$('.navbar__item').click(function(){
+			$('#navbar').removeClass('nav__navbar--mobile');
+      $('#nav-toggle').toggleClass('active');
+		})
+	})

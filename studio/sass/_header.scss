@@ -3,6 +3,7 @@
 .header {
   box-sizing: border-box;
   height: 100vh;
+  min-height: 740px;
   background: url(../img/header_bg.jpg);
   background-size: cover;
   background-position: center;
@@ -114,7 +115,7 @@
       .hero__content {
         margin-top: 0;
         margin-bottom: 40px;
-        color: #787878;
+        color: #191919;
         font-size: 1.8rem;
       }
       .hero__button {
@@ -167,6 +168,7 @@
 @media screen and (max-width: 990px) {
   .header {
     padding-bottom: 3rem;
+    height: auto;
     .header__nav {
       .nav__navbar {
         .navbar__item {

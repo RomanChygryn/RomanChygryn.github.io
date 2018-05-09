@@ -1,10 +1,3 @@
-// var overlay = $('.overlay'),
-//     modal = $('.modal');
-// // console.log(overlay);
-//
-// if (document.getElementById('myModal').style.display == "flex") {
-//   overlay.style.display = 'none';
-// }
 
 $('.overlay').on('click', function(){
   $(this).hide();
@@ -32,6 +25,10 @@ showLightbox(imageIndex);
 // Next/previous controls
 function plusimages(n) {
   showLightbox(imageIndex += n);
+}
+
+function currentSlide(n) {
+  showLightbox(imageIndex = n);
 }
 
 function showLightbox(n) {
