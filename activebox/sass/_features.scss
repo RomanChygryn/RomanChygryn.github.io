@@ -49,8 +49,8 @@
 .features {
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
-  padding-top: 6rem;
-  height: auto;
+  height: 100vh;
+  min-height: 970px;
   display: grid;
   grid-template: repeat(2, auto) / repeat(3, 1fr);
   align-items: center;
@@ -65,9 +65,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 96px;
+    // margin-bottom: 96px;
     @include mobile {
-      margin-bottom: 4rem;
+      margin-top: 4rem;
     }
     .item__icon {
       margin-bottom: 3rem;
