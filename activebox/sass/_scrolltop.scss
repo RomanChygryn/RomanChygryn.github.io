@@ -10,5 +10,8 @@
   &:hover {
     color: #E52E2E;
   }
+  &:focus {
+    outline: none;
+  }
   display: none;
 }
