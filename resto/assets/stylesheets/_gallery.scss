@@ -1,0 +1,24 @@
+.gallery {
+	margin-top: 200px;
+	.galleryHeader{
+		p{
+			text-transform: uppercase;
+			display: inline-block;
+			font-family: "Aleo";
+			font-size: 20px;
+			padding-left: 30px;
+		}
+		hr{
+			width: 17%;
+			display: inline-block;
+			margin: 0 0 7px 19px;
+		}
+	}
+	.content {
+		@include flex-center(flex,center,center);
+		margin-top: 80px;
+		img{
+			@include wh(100%,100%);
+		}
+	}
+}

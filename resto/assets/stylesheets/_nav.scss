@@ -1,0 +1,28 @@
+.navbar-header {
+	button{
+		margin-top: 37px;	
+	}
+}
+.navbar-brand {
+	padding-top: 41px;
+}
+.navbar {
+	@include wh(100%,110px);
+	background-color: $white;
+	border: none;
+	margin: 0;
+	.container {
+		padding-left: 30px;
+		padding-right: 6px;					
+		.navbar-nav{
+			float: right;
+			li{
+				margin: 45px 0 47px 50px;
+				a{
+					padding: 0;
+					font-size: 14px;
+				}
+			}
+		}	
+	}
+}

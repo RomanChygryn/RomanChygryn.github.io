@@ -1,0 +1,43 @@
+
+.mainHeader {
+	@include wh(100%,570px);
+	@include flex-center(flex,center,center);
+	background: $white url(..//img/header.jpg) no-repeat center/cover;
+	text-align: center;
+	color: $white;
+	font-size: 50px;
+	line-height: 10px;
+		.mainTitle {
+			height: 40px;
+			text-align: center;
+			width: 1020px;
+			h1{
+				font-size: 100px;
+				font-family: "WC Mano Negra Bta";
+			}
+			span {
+				display: inline-block;
+				position: relative; 
+				font-size: 16px;
+				font-family: "Aleo";
+			}
+			span:before,
+			span:after {
+				content: "";
+				position: absolute;
+				height: 8px;
+				border-bottom: 1px solid $white;
+				top: 0;
+				width: 40px;
+			}
+			span:before {
+				right: 100%;
+				margin-right: 27px;
+				}
+			span:after {
+				left: 100%;
+				margin-left: 27px;
+				}
+	}
+}
+

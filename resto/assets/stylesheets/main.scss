@@ -1,0 +1,17 @@
+@import 'bootstrap';
+@import 'font-awesome';
+@import 'var';
+@import 'mixin';
+@import 'nav';
+@import 'header';
+@import 'redLine';
+@import 'menu';
+@import 'featured';
+@import 'gallery';
+@import 'footer';
+@import 'mediaquaries';
+
+h1,h2,h3,h4,p {
+	margin: 0;
+	padding: 0;
+}

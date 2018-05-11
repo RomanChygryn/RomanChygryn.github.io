@@ -1,0 +1,87 @@
+.mainMenu {
+	.container{
+		div.btn {
+			@include flex-center(flex,center,center); 
+			padding: 0;
+		}
+		button {
+			color: $grey;
+			border-radius: 0;
+			span {
+				font-family: "Aleo";
+				font-size: 14px;
+			}
+			.line {
+				margin: auto 12px;
+			}
+		}
+	}
+	.leftSide {
+		.price {
+			position: relative;
+			right: 45px;
+			top: 2px;
+			float: right;
+		}
+		hr {
+    		right: 133px;
+		}
+	}
+	.rightSide {
+		ul{
+			margin-left: 43px;		}
+		.price {
+			position: relative;
+			right: 14px;
+			top: 4px;
+			float: right;
+		}
+		hr {
+    		right: 103px;
+		}
+	}
+}
+.theMenu {
+	text-align: center;
+	padding: 0;
+}
+.menu {
+	font-family: "Aleo";
+	margin-top: 80px;
+	li {
+		margin-bottom: 63px;
+	
+	.menu-item {
+		display: inline-block;
+		margin-right: 23px;
+		h4 {
+			margin-bottom: 8px;
+			font-weight: 600;
+			color: $black; 
+			font-size: 16px;
+		} 
+		p {
+			color: $darkGrey;
+			font-style: italic;
+			font-size: 12px;
+		}
+		
+	}
+	hr {
+    	border: 0;
+    	border-top: 1px solid $lightgrey;
+		display: inline-block;
+    	width: 33%;
+    	position: absolute;
+    	right: 112px;
+		margin-top: 11px;
+	}
+	.price {
+		display: inline-block;
+		h4{
+			margin: 0;
+			}
+		}
+	}
+}
+

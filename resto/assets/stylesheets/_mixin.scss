@@ -1,0 +1,10 @@
+@mixin wh($w,$h) {
+	width: $w;
+	height: $h;
+}
+
+@mixin flex-center($df,$ta,$jc) {
+	display: $df;
+	align-items: $ta;
+	justify-content: $jc;
+}	

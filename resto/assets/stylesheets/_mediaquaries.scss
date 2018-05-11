@@ -1,0 +1,117 @@
+@media (max-width: 590px) {
+	.container-fluid.featuredDish{
+		div{
+			div {
+				div.row.featuredHeader{
+					hr{
+						display: none;
+					}
+				}
+			}
+		}
+	} 
+}
+
+@media (max-width: 1208px) {
+	.featuredDish {
+		.featuredHeader{
+			ol {
+				display: inline-block;
+				margin: auto auto 0 26%;
+			}
+		}
+	}
+}
+
+@media (max-width: 420px) {
+	.featuredDish {
+		.featuredHeader{
+			ol {
+				display:inline-block;
+				margin: auto auto 0 30%;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.featuredDish {
+		margin-top: 50px;
+		.thumbnail{
+			margin: 0;
+			img {
+	
+			}
+			.caption {
+				text-align: center;
+				h4,p {
+					display: block;
+					position:inherit;
+				}
+				
+			}
+		}
+	}
+}
+@media (max-width: 320px) {
+	.featuredDish {
+		.thumbnail{
+			.caption {
+				h4,p {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 992px) {
+	.gallery {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 993px) {
+.mainMenu {
+	.rightSide {
+		ul{
+			margin-left: 0;
+			margin-top: 0;
+	}
+		.price {
+			position: relative;
+			right: 45px;
+			top: 2px;
+			float: right;
+		}
+		hr {
+    		right: 133px;
+			}
+		}
+	}
+}
+
+@media (max-width: 556px) {
+	.mainMenu{
+		.menu {
+			hr{
+				display: none;
+			}
+		}
+	}
+}
+@media (max-width: 1006px) {
+	.mainHeader {
+		@include flex-center(flex,flex-start,center);
+		.mainTitle {
+			margin-top: 15%;
+		}
+	}
+	
+}
+
+@media (max-width: 992px) {
+	.footer {
+		margin-top: 50px;
+		font-size: 12px;
+	}
+}
+	

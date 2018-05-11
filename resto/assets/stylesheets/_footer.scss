@@ -1,0 +1,27 @@
+.footer {
+	margin-top: 200px;
+	@include wh(100%,317px);
+	@include flex-center(flex,center,center);
+	background-color: $black;
+	color: $white;
+	font-family: "Aleo";
+	font-size: 16px;
+	ul {
+		margin-bottom: 0;			
+		a {
+			text-decoration: none;
+			color: $white;
+			line-height: 30px;
+	}
+}
+	a {
+		text-decoration: none;
+		color: $white;
+		font-weight: 200;
+}
+	p{
+		font-weight: 200;
+		line-height: 30px;
+	}
+} 
+
