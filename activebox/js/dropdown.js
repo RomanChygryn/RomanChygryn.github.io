@@ -12,7 +12,7 @@ function buttonChange() {
 };
 $(function(){
 		$('.nav__item').click(function(){
-			$('#navbar').toggleClass('nav').removeClass('nav--mobile');
+			$('#navbar').addClass('nav').removeClass('nav--mobile');
       $('#nav-toggle').toggleClass('active');
 		})
 	})
