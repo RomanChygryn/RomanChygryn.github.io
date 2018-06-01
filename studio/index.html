@@ -1,17 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Studio</title>
 </head>
 <body>
-  ?????TV (CellcomTV)
+  <!-- wrapper start -->
+  <div class="wrapper">
 
+    <!-- header start -->
+    <header class="header" id="header">
+      <!-- logo -->
+      <div class="header__logo"><i class="fab fa-accusoft fa-5x"></i></div>
+      <!-- logo end -->
+
+      <!-- nav start -->
+      <nav class="header__nav nav">
+        <div class="nav__mobile"><a id="nav-toggle" class="nav__mobile--toggle" href="javascript:void(0);" onclick="buttonChange()"><span></span></a></div>
+        <ul class="nav__navbar" id="navbar">
+          <li><a class="navbar__item" href="#">Home</a></li>
+          <li><a class="navbar__item" href="#about">About</a></li>
+          <li><a class="navbar__item" href="#work">Work</a></li>
+          <li><a class="navbar__item" href="#process">Process</a></li>
+          <li><a class="navbar__item" href="#services">Services</a></li>
+          <li><a class="navbar__item" href="#opinion">Testimonials</a></li>
+          <li><a class="navbar__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- nav end -->
+
+      <!-- hero start -->
+      <div class="header__hero hero">
+        <div class="hero__wrapper">
+          <h1 class="hero__title">We design and develop</h1>
+          <p class="hero__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, animi praesentium officia facilis dignissimos quod.</p>
+          <a href="#" class="hero__button btn">Contact us</a>
+        </div>
+      </div>
+      <!-- hero end -->
+    </header>
+    <!-- header end -->
+
+    <!-- about start -->
+    <section class="about" id="about">
+      <h1 class="about__title">About us</h1>
+      <p class="about__content">Divide have don't man wherein air fourth. Own itself make have night won't make.<br>
+A you under Seed appear which good give. Own give air without fowl moveth dry first
+heaven fruit, dominion she'd won't very all.
+      </p>
+      <div class="about__signature"></div>
+    </section>
+    <!-- about end -->
+
+    <!-- skills start -->
+    <section class="skills">
+      <div class="skills__list">
+        <h1 class="list__title">Professional skills</h1>
+
+        <div class="list__content">
+
+          <div class="design">
+            <h1 class="title design__title">UI/UX Design 75%</h1>
+            <div class="bar design__bar">
+              <div class="progress__bar" id="progressDesign"></div>
+            </div>
+          </div>
+
+          <div class="web">
+            <h1 class="title web__title">Web development 90%</h1>
+            <div class="bar web__bar">
+              <div class="progress__bar" id="progressWeb"></div>
+            </div>
+          </div>
+
+          <div class="marketing">
+            <h1 class="title marketing__title">Marketing 65%</h1>
+            <div class="bar marketing__bar">
+              <div class="progress__bar" id="progressMarketing"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="skills__slider slider">
+          <!-- Full-width images with number and caption text -->
+          <div class="slider__item fade">
+            <img src="img/3slider.jpg">
+          </div>
+
+          <div class="slider__item fade">
+            <img src="img/2slider.jpg">
+          </div>
+
+          <div class="slider__item fade">
+            <img src="img/1slider.jpg">
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        <!-- The dots/circles -->
+        <div class="slider__dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+      </div>
+    </section>
+    <!-- skills end -->
+
+    <!-- stat start -->
+    <section class="stat">
+      <div class="stat__item">
+        <span class="item__icon">
+          <i class="fas fa-briefcase fa-5x"></i>
+        </span>
+        <p class="item__amounts">548</p>
+        <p class="item__description">projects completed</p>
+      </div>
+      <div class="stat__item">
+        <span class="item__icon">
+          <i class="far fa-clock fa-5x"></i>
+        </span>
+        <p class="item__amounts">1465</p>
+        <p class="item__description">working hours</p>
+      </div>
+      <div class="stat__item">
+        <span class="item__icon">
+          <i class="far fa-star fa-5x"></i>
+        </span>
+        <p class="item__amounts">612</p>
+        <p class="item__description">positive feedbacks</p>
+      </div>
+      <div class="stat__item">
+        <span class="item__icon">
+          <i class="far fa-heart fa-5x"></i>
+        </span>
+        <p class="item__amounts">735</p>
+        <p class="item__description">happy clients</p>
+      </div>
+    </section>
+    <!-- stats end -->
+
+    <!-- gallery start -->
+    <section class="gallery" id="work">
+      <div class="gallery__show">
+        <div class="gallery__item">
+          <img src="img/gallery/1.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(1);"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/2.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(2)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/3.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(3)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/4.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(4)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/5.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(5)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/6.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(6)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/7.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(7)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/8.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(8)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/9.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(9)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/10.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(10)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/11.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(11)"></div>
+        </div>
+        <div class="gallery__item">
+          <img src="img/gallery/12.jpg" alt="">
+          <div class="overlay" onclick="openModal();currentSlide(12)"></div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="gallery__hidden" id="galleryHidden">
+          <div class="gallery__item">
+            <img src="img/gallery/13.jpg" alt="">
+            <div class="overlay" onclick="openModal();currentSlide(13)"></div>
+          </div>
+          <div class="gallery__item">
+            <img src="img/gallery/14.jpg" alt="">
+            <div class="overlay" onclick="openModal();currentSlide(14)"></div>
+          </div>
+          <div class="gallery__item">
+            <img src="img/gallery/15.jpg" alt="">
+            <div class="overlay" onclick="openModal();currentSlide(15)"></div>
+          </div>
+          <div class="gallery__item">
+            <img src="img/gallery/16.jpg" alt="">
+            <div class="overlay" id="over" onclick="openModal();currentSlide(16)"></div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery__load load" id="loadMore">
+        <a class="load__button" href="javascript:void(0);" onclick="loadMore()">Load More work</a>
+      </div>
+
+
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="myimages">
+            <img src="img/gallery/1.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/2.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/3.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/4.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/5.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/6.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/7.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/8.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/9.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/10.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/11.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/12.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/13.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/14.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/15.jpg">
+          </div>
+
+          <div class="myimages">
+            <img src="img/gallery/16.jpg">
+          </div>
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusimages(-1)">&#10094;</a>
+          <a class="next" onclick="plusimages(1)">&#10095;</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- gallery end -->
+
+    <!-- work process start -->
+    <section class="work" id="process">
+      <div class="work__title title">
+        <h1 class="title__content">our work process</h1>
+        <p class="title__description">Was years it seasons was there form he in in them together over that, third sixth gathered female creeping bearing behold years.</p>
+      </div>
+      <div class="work__video video">
+        <video class="video__content" autoplay loop id="video">
+          <source src="video/work.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+    <!-- work process end -->
+
+    <!-- services start -->
+    <section class="service" id="services">
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="far fa-gem fa-5x"></i>
+        </span>
+        <h2 class="item__title">ui / ux design</h2>
+        <p class="item__description">Be set fourth land god darkness make it wherein own</p>
+      </div>
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="fab fa-connectdevelop fa-5x"></i>
+        </span>
+        <h2 class="item__title">web development</h2>
+        <p class="item__description">A she'd them bring void moving third she'd kind fill</p>
+      </div>
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="fas fa-mobile-alt fa-5x"></i>
+        </span>
+        <h2 class="item__title">app / mobile</h2>
+        <p class="item__description">Dominion man second spirit he, earth they're creeping</p>
+      </div>
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="fas fa-gamepad fa-5x"></i>
+        </span>
+        <h2 class="item__title">game design</h2>
+        <p class="item__description">Morning his saying moveth it multiply appear life be</p>
+      </div>
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="fas fa-plane fa-5x"></i>
+        </span>
+        <h2 class="item__title">SEO / marketing</h2>
+        <p class="item__description">Give won't after land fill creeping meat you, may</p>
+      </div>
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="far fa-star fa-5x"></i>
+        </span>
+        <h2 class="item__title">photography</h2>
+        <p class="item__description">Creepeth one seas cattle grass give moving saw give</p>
+      </div>
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="fas fa-magic fa-5x"></i>
+        </span>
+        <h2 class="item__title">graphic design</h2>
+        <p class="item__description">Open, great whales air rule for, fourth life whales</p>
+      </div>
+      <div class="service__item">
+        <span class="item__icon">
+          <i class="fas fa-paint-brush fa-5x"></i>
+        </span>
+        <h2 class="item__title">illustrations</h2>
+        <p class="item__description">Whales likeness hath, man kind for them air two won't</p>
+      </div>
+    </section>
+
+    <!-- services end -->
+
+    <!-- section opinion -->
+    <section class="opinion" id="opinion">
+      <div class="opinion__item fade">
+        <p class="item__text">“Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.”</p>
+        <p class="item__name">Michael Hopkins</p>
+      </div>
+
+      <div class="opinion__item fade">
+        <p class="item__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui repellendus odit maiores placeat eius esse dignissimos voluptate, vitae perferendis officia?”</p>
+        <p class="item__name">Michael Jackson</p>
+      </div>
+
+      <div class="opinion__item fade">
+        <p class="item__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores nostrum velit, perferendis atque, consequatur rerum culpa explicabo?”</p>
+        <p class="item__name">Robert Grin</p>
+      </div>
+
+      <div class="opinion__dots">
+        <span class="opinion__dot"></span>
+        <span class="opinion__dot"></span>
+        <span class="opinion__dot"></span>
+      </div>
+    </section>
+    <!-- section opinion end -->
+
+    <!-- section brand start -->
+    <section class="brand">
+      <div class="brand__item"></div>
+      <div class="brand__item"></div>
+      <div class="brand__item"></div>
+      <div class="brand__item"></div>
+      <div class="brand__item"></div>
+    </section>
+    <!-- section brand end -->
+
+    <!-- form start -->
+    <div class="form__wrapper" id="contact">
+      <h2 class="form__title">Need a Project?</h1>
+      <p class="form__description">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+      <form class="form__content" action="action_page.php" >
+        <input type="text" id="name" name="name" placeholder="Your Name">
+        <input type="email" id="email" name="email" placeholder="Your Email">
+        <input type="text" id="lname" name="title" placeholder="Your Title">
+
+        <textarea type="text" id="subject" name="subject" placeholder="Your Comment"></textarea>
+
+        <input type="submit" class="form__button btn" value="Send message">
+
+      </form>
+    </div>
+    <!-- form end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer__brand brand">
+        <h2 class="brand__title">Piroll Design, Inc.</h2>
+        <p class="brand__description">&copy; 2017 Piroll. All rights reserved</p>
+        <p class="brand__subdescription">Designed by robirurk</p>
+      </div>
+      <div class="footer__contact contact">
+        <a class="contact__email">hello@pirolltheme.com</a>
+        <a class="contact__tel">+44 987 065 908</a>
+      </div>
+      <div class="footer__navbar">
+        <ul class="navbar">
+          <li class="navbar__item"><a href="#">Projects</a></li>
+          <li class="navbar__item"><a href="#">About</a></li>
+          <li class="navbar__item"><a href="#">Services</a></li>
+          <li class="navbar__item"><a href="#">Career</a></li>
+          <li class="navbar__item"><a href="#">News</a></li>
+          <li class="navbar__item"><a href="#">Events</a></li>
+          <li class="navbar__item"><a href="#">Contact</a></li>
+          <li class="navbar__item"><a href="#">Legals</a></li>
+        </ul>
+      </div>
+      <div class="footer__social">
+        <ul class="social__bar">
+          <li class="social__item"><a href="#">Facebook</a></li>
+          <li class="social__item"><a href="#">Twitter</a></li>
+          <li class="social__item"><a href="#">Instagram</a></li>
+          <li class="social__item"><a href="#">Dribble</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <a href="#header"><button class="scroll-top fas fa-arrow-circle-up fa-5x"></button></a>
+  </div>
+  <!-- wrapper end -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/dropdown.js"></script>
+  <script type="text/javascript" src="js/progress.js"></script>
+  <script type="text/javascript" src="js/slider.js"></script>
+  <script type="text/javascript" src="js/loadmore.js"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+  <script type="text/javascript" src="js/anchor.js"></script>
+  <script src="js/scrolltop.js" type="text/javascript"></script>
+  <script src="js/common.js" type="text/javascript"></script>
 </body>
 </html>
