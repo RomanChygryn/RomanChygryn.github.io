@@ -34,16 +34,16 @@ $(document).ready(function(){
 
   $('#contentBtnFirst').on( "click", function(event) {
       event.preventDefault();
-      $('#newsModalFirst').fadeIn(1000);
+      $('#newsModalFirst').fadeIn(500);
   });
   $('#contentBtnSecond').on( "click", function(event) {
       event.preventDefault();
-      $('#newsModalSecond').fadeIn(1000);
+      $('#newsModalSecond').fadeIn(500);
   });
 
   $('.news__modal__btn').on( "click", function(event) {
       event.preventDefault();
-      $('.news__modal').fadeOut(1000);
+      $('.news__modal').fadeOut(500);
 
   });
 
