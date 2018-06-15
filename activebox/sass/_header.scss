@@ -15,7 +15,9 @@
 
   &::after {
     content: '';
-    @include wh(100%,100vh);
+	top: 0;
+	left: 0;
+    @include wh(100%,100%);
     @include mobile {
       height: 100%;
     }
