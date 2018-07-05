@@ -266,7 +266,8 @@ header .container .header__social .social__content .social__content--item:last-c
     font-size: 1.2rem;
     text-align: left;
     font-weight: 300;
-    line-height: 1.8rem
+    line-height: 1.8rem;
+    margin-left: .4rem;
 }
 
 .team .team__member .member__social {
