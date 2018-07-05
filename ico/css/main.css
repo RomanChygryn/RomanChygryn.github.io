@@ -253,13 +253,21 @@ header .container .header__social .social__content .social__content--item:last-c
     text-align: center;
     text-transform: uppercase
 }
-body > div > div > div > div > button.slick-prev.slick-arrow.slick-next {
+body > div > div > div > div > button.slick-prev.slick-arrow {
     width: 30px;
     height: 30px;
 }
-body > div > div > div > div > button.slick-prev.slick-arrow.slick-next::before {
+body > div > div > div > div > button.slick-prev.slick-arrow::before {
     color: #3946B6;
-    font-size: 21px;
+    font-size: 30px;
+}
+body > div > div > div > div > button.slick-next.slick-arrow {
+    width: 30px;
+    height: 30px;
+}
+body > div > div > div > div > button.slick-next.slick-arrow::before {
+    color: #3946B6;
+    font-size: 30px;
 }
 .team .team__member .member__description {
     color: #5e6770;
