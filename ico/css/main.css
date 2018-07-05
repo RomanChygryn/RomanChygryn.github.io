@@ -871,7 +871,7 @@ ul {
 }
 .slider__wrapper .slick-item .slick-item-inner .team__member {
     margin-bottom: 2rem;
-    height: 480px;
+    height: auto;
     width: 100%;
     background: #fff;
     position: relative;
