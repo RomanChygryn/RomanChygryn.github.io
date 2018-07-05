@@ -869,7 +869,7 @@ ul {
 .slider__wrapper .slick-item .slick-item-inner {
     padding: 1rem;
 }
-.slider__wrapper .slick-item .slick-item-inner .works__item {
+.slider__wrapper .slick-item .slick-item-inner .team__member {
     margin-bottom: 2rem;
     height: 480px;
     width: 100%;
@@ -877,74 +877,6 @@ ul {
     position: relative;
     transition: all 1s;
 }
-.slider__wrapper .slick-item .slick-item-inner .works__item .works__item__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 8;
-    opacity: 0;
-    transition: all 0.3s;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .hover__active:hover {
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 1;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .item__thumb {
-    padding: 2rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #cecec0;
-    height: auto;
-    overflow: hidden;
-    position: relative;
-    z-index: 3;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .item__thumb .item__thumb__img {
-    width: 80%;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .item__text {
-    position: relative;
-    z-index: 4;
-    padding: 0 1rem;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .item__text__headline, .slider__wrapper .slick-item .slick-item-inner .works__item .item__text__desc {
-    color: #fff;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .item__text__headline {
-    background: #000;
-    display: block;
-    text-align: center;
-    padding: 1rem 1rem;
-    width: 57%;
-    box-sizing: border-box;
-    font-size: 1.125rem;
-    margin: -30px auto 10px auto;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .item__text__desc {
-    color: #000;
-}
-.slider__wrapper .slick-item .slick-item-inner .works__item .item__text__disc {
-    font-size: 0.8rem;
-}
-.slider__wrapper .slick-item img {
-    display: block;
-    max-width: 100%;
-}
-.slider__wrapper .card {
-    background: #fdfdfd;
-    padding: 0.5rem 1rem;
-    margin-bottom: 1.5rem;
-}
-.slider__wrapper .card .card-title {
-    color: #343434;
-    margin: 0;
-}
-.slider__wrapper .card .card-body {
-    line-height: 1.6;
-}
+
+
+
