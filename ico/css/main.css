@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 nav {
     position: relative;
     z-index: 2;
@@ -186,6 +189,9 @@ header .container .header__social .social__content {
 header .container .header__social .social__content .social__content--item {
     display: inline-block;
     padding-right: 1rem
+}
+header .container .header__social .social__content .social__content--item a{
+    color: #fff;
 }
 
 header .container .header__social .social__content .social__content--item:last-child {
@@ -412,7 +418,8 @@ header .container .header__social .social__content .social__content--item:last-c
         background-color: #ffffff
     }
     nav .container .mainNavBar {
-        height: 72px
+        min-height: 72px;
+        height: auto;
     }
     nav .container .mainNavBar .logo {
         text-align: center;
@@ -443,7 +450,8 @@ header .container .header__social .social__content .social__content--item:last-c
         background-color: #ffffff
     }
     nav .container .mainNavBar {
-        height: 72px
+        min-height: 72px;
+        height: auto;
     }
     nav .container .mainNavBar .logo {
         text-align: center;
