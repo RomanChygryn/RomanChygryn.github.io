@@ -263,10 +263,11 @@ header .container .header__social .social__content .social__content--item:last-c
 }
 
 .team .team__member .member__social {
-    margin-top: 3rem;
     list-style: none;
     text-align: center;
-    margin-bottom: 5rem
+    position: absolute;
+    bottom: 0;
+    left: 20%;
 }
 
 .team .team__member .member__social .member__social--item {
