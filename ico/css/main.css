@@ -192,6 +192,7 @@ header .container .header__social .social__content .social__content--item {
 }
 header .container .header__social .social__content .social__content--item a{
     color: #fff;
+    text-decoration: none;
 }
 
 header .container .header__social .social__content .social__content--item:last-child {
@@ -279,6 +280,7 @@ header .container .header__social .social__content .social__content--item:last-c
 }
 .team .team__member .member__social .member__social--item a {
     color: #000;
+    text-decoration: none;
 }
 
 .team .team__carouselIndicator {
