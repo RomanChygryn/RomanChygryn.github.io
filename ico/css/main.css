@@ -217,7 +217,8 @@ header .container .header__social .social__content .social__content--item:last-c
 }
 
 .team .team__member .member__thumb {
-    width: 235px;
+    width: 100%;
+    background-size: cover;
     height: 270px;
     border-radius: 1rem;
     margin: 0 auto 1rem
@@ -871,7 +872,7 @@ ul {
 }
 .slider__wrapper .slick-item .slick-item-inner .team__member {
     margin-bottom: 2rem;
-    height: auto;
+    height: 616px;
     width: 100%;
     background: #fff;
     position: relative;
