@@ -1,16 +1,14 @@
+$('.slick-carousel-basic').slick({
 
-
-$('.gallery-responsive').slick({
-    dots: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 7,
+    slidesToShow: 4,
     slidesToScroll: 1,
+    speed : 600,
+    ease : 'easeIn',
     responsive: [
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 5,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: false
@@ -19,7 +17,7 @@ $('.gallery-responsive').slick({
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
                 slidesToScroll: 1
             }
         },
