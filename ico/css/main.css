@@ -277,6 +277,9 @@ header .container .header__social .social__content .social__content--item:last-c
     width: 60px;
     height: 40px
 }
+.team .team__member .member__social .member__social--item a {
+    color: #fff;
+}
 
 .team .team__carouselIndicator {
     display: none;
