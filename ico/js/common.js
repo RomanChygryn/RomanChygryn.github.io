@@ -1,7 +1,7 @@
 $('.slick-carousel-basic').slick({
 
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 0,
     speed : 600,
     ease : 'easeIn',
     responsive: [
