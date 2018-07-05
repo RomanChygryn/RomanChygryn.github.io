@@ -744,23 +744,23 @@ body > div > div > div > div > button.slick-prev.slick-arrow:before {
 }
 
 @media screen and (max-width: 768px) {
-    .team {
-        padding-top: 3rem
-    }
-    .team .team__member {
-        display: none;
-        margin-top: 3rem;
-        margin-left: auto;
-        margin-right: auto
-    }
-    .team .team__member--second {
-        display: block
-    }
-    .team .team__carouselIndicator {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex
-    }
+    /*.team {*/
+        /*padding-top: 3rem*/
+    /*}*/
+    /*.team .team__member {*/
+        /*display: none;*/
+        /*margin-top: 3rem;*/
+        /*margin-left: auto;*/
+        /*margin-right: auto*/
+    /*}*/
+    /*.team .team__member--second {*/
+        /*display: block*/
+    /*}*/
+    /*.team .team__carouselIndicator {*/
+        /*display: -webkit-box;*/
+        /*display: -ms-flexbox;*/
+        /*display: flex*/
+    /*}*/
     .footer {
         height: auto
     }
