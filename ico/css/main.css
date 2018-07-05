@@ -257,7 +257,7 @@ header .container .header__social .social__content .social__content--item:last-c
 .team .team__member .member__description {
     color: #5e6770;
     font-size: 1.2rem;
-    text-align: center;
+    text-align: left;
     font-weight: 300;
     line-height: 1.8rem
 }
