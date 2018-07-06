@@ -36,6 +36,9 @@ $( document ).ready(function() {
       ]
   });
 
-  $('.header__bg__content').play();
-  console.log('ready');
+
+
 });
+function playVid() {
+    $('.header__bg__content').play(); 
+}
