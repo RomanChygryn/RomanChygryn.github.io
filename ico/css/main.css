@@ -604,7 +604,8 @@ body > div > div > div > div > button.slick-next.slick-arrow::before {
         font-weight: 300;
         letter-spacing: .1rem;
         border-radius: 1.2rem;
-        right: 0
+        right: 0;
+        top: 0;
     }
 }
 
