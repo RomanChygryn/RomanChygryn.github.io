@@ -428,6 +428,7 @@ body > div > div > div > div > button.slick-next.slick-arrow::before {
     font-size: 1.4rem;
     font-weight: 300;
     text-align: center
+    color: #262223;
 }
 
 .footer .container .footer__bottom .bottom__bar {
@@ -442,8 +443,13 @@ body > div > div > div > div > button.slick-next.slick-arrow::before {
     display: inline-block;
     padding-right: 3rem;
     padding-left: 2rem;
-    border-left: 2px solid #0198ff;
+    border-left: 2px solid #262223;
     height: 30px
+}
+.footer .container .footer__bottom .bottom__bar .bottom__bar--item a{
+    cursor: pointer;
+    font-weight: 300;
+    color: #262223;
 }
 
 .footer .container .footer__bottom .bottom__bar .bottom__bar--item:first-child {
