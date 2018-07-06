@@ -73,12 +73,21 @@
             </form>
           </div>
           <div class="col-lg-6 header__video video">
-            <div class="video__wrapper">
+            <!-- <div class="video__wrapper">
               <div class="video__controls"></div>
               <video class="video__content" poster="assets/poster.png" autoplay>
                 <source src="video/film.mp4" type="video/mp4">
               </video>
-            </div>
+            </div> -->
+            <figure class="pop">
+              <video preload="auto" muted>
+                <source src="video/film.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="controls">
+                <button type="button" class="flow"></button>
+              </div>
+            </figure>
           </div>
         </div>
 
