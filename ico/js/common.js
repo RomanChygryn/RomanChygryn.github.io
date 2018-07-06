@@ -37,4 +37,5 @@ $( document ).ready(function() {
   });
 
   $('.header__bg__content').play();
+  consolo.log('ready');
 });
