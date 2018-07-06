@@ -1,63 +1,18 @@
-figure {
-  width: 320px;
-  position: relative;
-  margin: auto;
-}
-
-figure:first-of-type {
-  top: 700px;
-}
-
-figure:last-of-type {
-  top: 1200px;
-}
-
-.controls {
-  position: relative;
-  top: 105%;
-}
-
-button {
-  background: transparent;
-  border: 0;
-  outline: 0;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-.controls button {
-  display: none;
-  width: 50px;
-  height: 35px;
+.header__bg {
   position: absolute;
-  background-image: url(http://ataredo.com/external/image/controls.png);
-  background-repeat: no-repeat;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 5px #4d4d5d inset;
-  box-shadow: 0 0 5px #4d4d5d inset;
-  cursor: pointer;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
-
-.sound {
-  left: 3px;
-  background-position: -50px ;
+.header__bg .header__bg__content {
+  height: 100%;
+  width: auto;
 }
-
-.flow {
-  right: 3px;
-  background-position: -150px;
-}
-
-.sound.active {
-  background-position: 0;
-}
-
-.flow.active {
-  background-position: -100px;
-}
-
 a {
   text-decoration: none;
 }
