@@ -13,6 +13,10 @@
   height: 100%;
   width: auto;
 }
+.header__wrapper {
+  position: relative;
+  z-index: 10;
+}
 a {
   text-decoration: none;
 }
