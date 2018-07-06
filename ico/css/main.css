@@ -8,10 +8,11 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .header__bg .header__bg__content {
-  height: 100%;
-  width: auto;
+  /* height: 100%;
+  width: auto; */
 }
 .header__wrapper {
   position: relative;
@@ -62,7 +63,7 @@ nav .mainNavBar .navBar .navBar__item .navBar__link:hover {
 header {
     position: relative;
     background-color: #3341ac;
-    height: 100vh;
+    min-height: 100vh;
     color: #FFFFFF;
     margin-top: -72px
 }
@@ -219,7 +220,7 @@ header .container .header__social .social__content .social__content--item:last-c
 }
 
 .team {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 7rem;
     position: relative
 }
