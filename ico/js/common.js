@@ -35,10 +35,4 @@ $( document ).ready(function() {
           // instead of a settings object
       ]
   });
-
-
-
 });
-function playVid() {
-    $('.header__bg__content').play(); 
-}
