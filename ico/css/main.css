@@ -66,6 +66,7 @@ header {
     min-height: 100vh;
     color: #FFFFFF;
     margin-top: -72px
+    z-index: 1;
 }
 
 header .container .header__timer {
