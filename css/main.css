@@ -3311,6 +3311,17 @@ li {
     background: #fff
 }
 
+.wrapper .content .content__cv {
+    font-size: 28px;
+    text-transform: uppercase;
+    opacity: .8;
+    transition: opacity .5s;
+}
+
+.wrapper .content .content__cv:hover {
+    opacity: 1;
+}
+
 .wrapper .content .content__headline .content__headline__title {
     color: #000;
     font-weight: 700;
@@ -3389,9 +3400,13 @@ li {
     transition: all .3s
 }
 
-.wrapper .slider__wrapper .slick-item .slick-item-inner .works__item .hover__active:hover {
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 1
+
+
+@media screen and (min-width: 768px) {
+    .wrapper .slider__wrapper .slick-item .slick-item-inner .works__item .hover__active:hover {
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 1
+    }
 }
 
 .wrapper .slider__wrapper .slick-item .slick-item-inner .works__item .item__thumb {

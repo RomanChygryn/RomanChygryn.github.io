@@ -30,7 +30,7 @@ $('.slick-carousel-basic').slick({
   ease : 'easeIn',
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1256,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -39,14 +39,14 @@ $('.slick-carousel-basic').slick({
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 964,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 700,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
